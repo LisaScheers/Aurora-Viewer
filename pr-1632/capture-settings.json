@@ -1,0 +1,19 @@
+{
+  "mode": "offline demo",
+  "gpu": "Apple M5 Pro",
+  "size": [
+    2000,
+    1400
+  ],
+  "hair": "3,24,60,16",
+  "crowd": 5,
+  "files": [
+    "cas-scale50-sharp0-msaa.png",
+    "cas-scale50-sharp04-msaa.png",
+    "cas-scale50-sharp1-msaa.png",
+    "cas-scale50-sharp04-smaa.png",
+    "cas-scale100-sharp04-msaa.png",
+    "cas-scale50-hdroff-smaa.png"
+  ],
+  "note": "Capture-only runs; no performance claim."
+}
