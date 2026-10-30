@@ -1,0 +1,194 @@
+{
+  "mode": "offline demo",
+  "gpu": "Apple M5 Pro",
+  "strict_threshold": "R/B >= 251, G <= 4",
+  "broad_threshold": "R/B >= 190, G <= 50",
+  "captures": [
+    {
+      "image": "alpha-plaza-msaa.png",
+      "aa": "3",
+      "ssr": false,
+      "positive_control": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-zero-cutoff-msaa.png",
+      "aa": "3",
+      "ssr": false,
+      "positive_control": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-hair-crowd-msaa.png",
+      "aa": "3",
+      "ssr": false,
+      "positive_control": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-gbuffer-msaa.png",
+      "aa": "3",
+      "ssr": true,
+      "positive_control": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-positive-control-msaa.png",
+      "aa": "3",
+      "ssr": false,
+      "positive_control": true,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 45370,
+      "magenta_pixels_broad": 58461
+    },
+    {
+      "image": "alpha-plaza-smaa.png",
+      "aa": "6",
+      "ssr": false,
+      "positive_control": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-zero-cutoff-smaa.png",
+      "aa": "6",
+      "ssr": false,
+      "positive_control": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-hair-crowd-smaa.png",
+      "aa": "6",
+      "ssr": false,
+      "positive_control": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-gbuffer-smaa.png",
+      "aa": "6",
+      "ssr": true,
+      "positive_control": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-positive-control-smaa.png",
+      "aa": "6",
+      "ssr": false,
+      "positive_control": true,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 41700,
+      "magenta_pixels_broad": 57958
+    },
+    {
+      "image": "alpha-soft-visible-msaa.png",
+      "aa": "3",
+      "ssr": false,
+      "positive_control": false,
+      "scenario": "AURORA_DEMO_SOFT_MASK=visible",
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-soft-visible-smaa.png",
+      "aa": "6",
+      "ssr": false,
+      "positive_control": false,
+      "scenario": "AURORA_DEMO_SOFT_MASK=visible",
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-default-msaa.png",
+      "aa": "3",
+      "ssr": false,
+      "positive_control": false,
+      "check": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    },
+    {
+      "image": "alpha-default-smaa.png",
+      "aa": "6",
+      "ssr": false,
+      "positive_control": false,
+      "check": false,
+      "returncode": 0,
+      "size": [
+        2000,
+        1400
+      ],
+      "magenta_pixels_strict": 0,
+      "magenta_pixels_broad": 0
+    }
+  ]
+}
