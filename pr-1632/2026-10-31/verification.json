@@ -1,0 +1,41 @@
+{
+  "pr": 1632,
+  "base": "d6ab64d93ecf31d33546370b9aa5484dbfda378e",
+  "passed": 6503,
+  "ignored": 32,
+  "mode": "offline demo",
+  "marker_threshold": "R/B >= 190, G <= 50",
+  "captures": [
+    {
+      "image": "cas-update-msaa.png",
+      "size": [
+        2000,
+        1400
+      ],
+      "aa": "3",
+      "scale": 50,
+      "sharpness": 0.4,
+      "alpha_check": false,
+      "ssr": false,
+      "exposed_soft_mask": false,
+      "magenta_pixels": 0,
+      "returncode": 0
+    },
+    {
+      "image": "cas-update-smaa.png",
+      "size": [
+        2000,
+        1400
+      ],
+      "aa": "6",
+      "scale": 50,
+      "sharpness": 0.4,
+      "alpha_check": false,
+      "ssr": false,
+      "exposed_soft_mask": false,
+      "magenta_pixels": 0,
+      "returncode": 0
+    }
+  ],
+  "note": "Image-validation runs; no FPS measurement."
+}

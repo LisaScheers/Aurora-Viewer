@@ -1,0 +1,71 @@
+{
+  "pr": 1635,
+  "base": "d6ab64d93ecf31d33546370b9aa5484dbfda378e",
+  "passed": 6502,
+  "ignored": 32,
+  "mode": "offline demo",
+  "marker_threshold": "R/B >= 190, G <= 50",
+  "captures": [
+    {
+      "image": "alpha-update-msaa.png",
+      "size": [
+        2000,
+        1400
+      ],
+      "aa": "3",
+      "scale": 100,
+      "sharpness": 0.4,
+      "alpha_check": true,
+      "ssr": true,
+      "exposed_soft_mask": false,
+      "magenta_pixels": 0,
+      "returncode": 0
+    },
+    {
+      "image": "alpha-update-smaa.png",
+      "size": [
+        2000,
+        1400
+      ],
+      "aa": "6",
+      "scale": 100,
+      "sharpness": 0.4,
+      "alpha_check": false,
+      "ssr": false,
+      "exposed_soft_mask": false,
+      "magenta_pixels": 0,
+      "returncode": 0
+    },
+    {
+      "image": "alpha-soft-update-msaa.png",
+      "size": [
+        2000,
+        1400
+      ],
+      "aa": "3",
+      "scale": 100,
+      "sharpness": 0.4,
+      "alpha_check": true,
+      "ssr": false,
+      "exposed_soft_mask": true,
+      "magenta_pixels": 0,
+      "returncode": 0
+    },
+    {
+      "image": "alpha-soft-update-smaa.png",
+      "size": [
+        2000,
+        1400
+      ],
+      "aa": "6",
+      "scale": 100,
+      "sharpness": 0.4,
+      "alpha_check": true,
+      "ssr": false,
+      "exposed_soft_mask": true,
+      "magenta_pixels": 0,
+      "returncode": 0
+    }
+  ],
+  "note": "Image-validation runs; no FPS measurement."
+}
